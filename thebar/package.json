@@ -1,16 +1,23 @@
 {
-  "name": "thebar",
-  "version": "6.0.0",
-  "description": "The Bar \u2014 AI Legal Practice Platform for solo & small firm attorneys",
+  "name": "the-bar",
+  "version": "7.0.0",
+  "description": "The Bar — AI Legal Practice Platform",
   "private": true,
-  "license": "UNLICENSED",
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "dependencies": {},
-  "type": "module"
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  },
+  "keywords": [
+    "legal-tech",
+    "ai",
+    "practice-management"
+  ],
+  "license": "UNLICENSED"
 }
